@@ -1,0 +1,21 @@
+ 
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+  background-color: #030712;
+  color: #f8fafc;
+}
+
+/* Custom sleek scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #030712;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #06b6d4, #6366f1);
+  border-radius: 9999px;
+}
